@@ -1,3 +1,4 @@
+import "jest";
 import HomePage from "@/pages";
 import { render } from "@/utils/test-utils";
 

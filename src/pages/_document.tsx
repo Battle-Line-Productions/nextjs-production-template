@@ -1,8 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
-export default function Document({ locale }: { locale: string }) {
+export default function Document() {
 	return (
-		<Html lang={locale}>
+		<Html>
 			<Head />
 			<body>
 				<Main />

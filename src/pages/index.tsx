@@ -18,4 +18,5 @@ const Home: NextPage = () => {
 		</Container>
 	);
 };
+
 export default Home;
