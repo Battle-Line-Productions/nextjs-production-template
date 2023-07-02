@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import ButtonComponent from "../components/buttonComponent";
 
 const Home: NextPage = () => {
 	return (
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
 						nihil voluptatibus soluta labore earum nostrum doloremque. Sequi laboriosam dicta praesentium,
 						sit aspernatur non molestiae voluptates beatae.
 					</p>
-					<Button>My Test</Button>
+					<ButtonComponent id="my-test-button" text="My Test" color="blue" tooltip="This is my test button" />
 				</Col>
 			</Row>
 		</Container>
