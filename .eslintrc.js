@@ -1,5 +1,12 @@
 module.exports = {
-	extends: ["next/core-web-vitals", "next", "eslint:recommended", "prettier", "plugin:cypress/recommended"],
+	extends: [
+		"next/core-web-vitals",
+		"next",
+		"eslint:recommended",
+		"prettier",
+		"plugin:cypress/recommended",
+		"plugin:storybook/recommended",
+	],
 	plugins: ["cypress"],
 	rules: {
 		"no-console": "warn",

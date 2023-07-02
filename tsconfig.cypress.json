@@ -1,21 +1,4 @@
 {
-<<<<<<< Updated upstream
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-        "composite": true,
-        "types": [
-            "cypress"
-        ]
-    },
-    "include": [
-        "./node_modules/cypress",
-        "./__test__/cypress/**/*.js",
-        "./__test__/cypress/**/*.ts",
-        "./__test__/cypress/**/*.tsx",
-        "./src/"
-    ]
-}
-=======
 	"extends": "./tsconfig.json",
 	"compilerOptions": {
 		"composite": true,
@@ -30,4 +13,3 @@
 		"stories/button.stories.tsx"
 	]
 }
->>>>>>> Stashed changes
