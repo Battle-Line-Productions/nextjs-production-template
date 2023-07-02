@@ -1,14 +1,14 @@
 {
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-        "composite": true,
-        "types": ["jest", "node"]
-    },
-    "include": [
-        "./node_modules/jest",
-        "./__test__/jest/**/*.js",
-        "./__test__/jest/**/*.ts",
-        "./__test__/jest/**/*.tsx",
-        "./src/"
-    ]
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"composite": true,
+		"types": ["jest", "node"]
+	},
+	"include": [
+		"./node_modules/jest",
+		"./__test__/jest/**/*.js",
+		"./__test__/jest/**/*.ts",
+		"./__test__/jest/**/*.tsx",
+		"./src/"
+, "stories/button.stories.tsx"	]
 }
