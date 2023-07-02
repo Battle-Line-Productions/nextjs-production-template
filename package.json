@@ -12,13 +12,9 @@
 		"format": "prettier --write \"*.{js,jsx,ts,tsx,json}\" --config ./.prettierrc.js",
 		"pre-commit": "lint-staged",
 		"prepare": "husky install",
-<<<<<<< Updated upstream
-		"cypress": "pnpx cypress open"
-=======
 		"cypress": "pnpx cypress open",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
->>>>>>> Stashed changes
 	},
 	"dependencies": {
 		"@next/env": "^13.4.7",
@@ -31,8 +27,6 @@
 		"react-redux": "^8.1.1"
 	},
 	"devDependencies": {
-<<<<<<< Updated upstream
-=======
 		"@storybook/addon-a11y": "^7.0.24",
 		"@storybook/addon-essentials": "7.0.24",
 		"@storybook/addon-interactions": "7.0.24",
@@ -43,39 +37,29 @@
 		"@storybook/nextjs": "7.0.24",
 		"@storybook/react": "7.0.24",
 		"@storybook/testing-library": "0.0.14-next.2",
->>>>>>> Stashed changes
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^14.0.0",
 		"@types/jest": "^29.5.2",
 		"@types/node": "^20.3.3",
 		"@types/react": "^18.2.14",
 		"@types/react-dom": "^18.2.6",
-<<<<<<< Updated upstream
-=======
 		"css-loader": "^6.8.1",
->>>>>>> Stashed changes
 		"cypress": "^12.16.0",
 		"eslint": "^8.44.0",
 		"eslint-config-next": "^13.4.7",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-cypress": "^2.13.3",
-<<<<<<< Updated upstream
-=======
 		"eslint-plugin-storybook": "^0.6.12",
->>>>>>> Stashed changes
 		"husky": "^8.0.3",
 		"jest": "^29.5.0",
 		"jest-environment-jsdom": "^29.5.0",
 		"lint-staged": "^13.2.3",
 		"prettier": "^2.8.8",
 		"sass": "^1.63.6",
-<<<<<<< Updated upstream
-=======
 		"sass-loader": "^13.3.2",
 		"sb": "^7.0.24",
 		"storybook": "7.0.24",
 		"style-loader": "^3.3.3",
->>>>>>> Stashed changes
 		"typescript": "^5.1.6"
 	},
 	"husky": {
