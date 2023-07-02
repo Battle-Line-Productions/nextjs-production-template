@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#cypress
+__test__/cypress/downloads
+__test__/cypress/screenshots
+__test__/cypress/videos
+
 # dependencies
 /node_modules
 /.pnp
